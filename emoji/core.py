@@ -115,7 +115,7 @@ def emoji_count(string):
 def to_code_point(string, joiner='-'):
     """
     Convert a unicode emoji to a code point for use in twemoji
-
+    
     :param string: Emoji String
     :param joiner: Joiner
     :return:

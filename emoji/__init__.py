@@ -18,6 +18,7 @@ emoji terminal output for Python.
 from emoji.core import emojize
 from emoji.core import demojize
 from emoji.core import get_emoji_regexp
+from emoji.core import to_code_point
 from emoji.core import emoji_count
 from emoji.core import emoji_lis
 from emoji.unicode_codes import EMOJI_ALIAS_UNICODE
@@ -25,7 +26,7 @@ from emoji.unicode_codes import EMOJI_UNICODE
 from emoji.unicode_codes import UNICODE_EMOJI
 from emoji.unicode_codes import UNICODE_EMOJI_ALIAS
 
-__version__ = '0.5.4'
+__version__ = '0.5.5'
 __author__ = 'Taehoon Kim and Kevin Wurster'
 __email__ = 'carpedm20@gmail.com'
 # and wursterk@gmail.com
